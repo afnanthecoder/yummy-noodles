@@ -1,11 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="wireframe" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yummy Noodles</title>
-</head>
-<body>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./IMG/collected/Yellow minimalist noodles logo.png" type="image/x-icon">
+    <!-- Tailwind and DaisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+    body{
+        font-family: 'Work Sans', sans-serif;
+        background-image: url("./IMG/back.jpg");
+
+    }
     
+    
+</style>
+</head>
+
+<body >
+    
+        <nav class="max-w-7xl mx-auto  ">
+            <div class="navbar ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-yellow-300 text-white rounded-box w-52 text-2xl font-semibold">
+                      <li><a>Menu</a></li>
+                      <li>
+                        <a>Items</a>
+                      </li>
+                      <li><a>About</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <img class="w-[20%]" src="./IMG/hero2.png" alt="">
+                    <p class="lg:text-4xl md:text-3xl text-xl flex gap font-extrabold text-white"> <span class="text-yellow-400">Y</span>ummy  <span class="text-red-500 pl-1"> N</span>oodles</p>
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-white text-xl font-semibold">
+                      
+                      <li><a>Home</a></li>
+                      <li><a>Menu</a></li>
+                    
+                    <li><a>Items</a>
+                    </li>
+                    <li><a>About</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-4 text-white">
+                    <div class="hidden lg:block">
+                        <a  href=""> SignIn </a> || 
+                        <a href="">SignUp</a>
+                    </div>
+
+
+                    <input class="border rounded-lg p-2 lg:block md:block hidden w-[35%]" type="search" name="" id="" placeholder="Search Location">
+                  <a class="btn bg-yellow-400 rounded-lg text-white ">Order Now</a>
+                </div>
+              </div>
+        </nav>
+    
+    <main>
+        <section class="max-w-7xl mx-auto text-white " >
+            <div class=" lg:flex md:flex mt-4 gap-2   ">
+            <div class="flex-1 pt-6 text-center lg:text-start">
+            <h1 class="text-3xl font-bold py-3">DELICIOUS <br>
+                NOODLES DISH</h1>
+                <h3 class="lg:text-2xl md:text-2xl  font-medium lg:py-3 md:py-2">Delicious Deals for a limited time only. <br> Order now to save.</h3>
+                <h4 class="text-sm p-5 lg:py-5 lg:px-0">Price does not include taxes & fees or cost associated with protein or other add ons. <br>Offers Available for a limited time only. ​</h4>
+        <button class="bg-yellow-500 btn btn-error rounded-lg ">Order Now</button>
+    </div>
+    <div class="flex-1 ">
+        <img class="w-[90%] " src="./IMG/hero.png" alt="">
+    </div>
+</div>
+    </section>
+    <section class="max-w-7xl mx-auto text-white">
+        <h1 class="text-5xl text-center font-bold text-white">Our Menu</h1>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-5 p-5">
+            <div class="card  bg-red-600 border-yellow-200 shadow-2xl">
+                <figure><img class="w-1/2 lg:w-full" src="./IMG/p1.png" alt="noodles" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Chinese Noodles!
+                    <div class="badge badge-secondary">New Item</div>
+                  </h2>
+                  <p>Make Your Day With Yummy Noodles</p>
+                  <div class="card-actions justify-end">
+                    <button class="badge badge-outline btn bg-yellow-400 rounded-lg">Add to List</button> 
+                    <button class="badge badge-outline btn bg-blue-600 rounded-lg">Order Now</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card  bg-yellow-400 border-yellow-200 shadow-2xl">
+                <figure><img class="w-1/2 lg:w-full" src="./IMG/p2.png" alt="noodles" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Thai Noodles!
+                    <div class="badge badge-secondary ">New Item</div>
+                  </h2>
+                  <p>Make Your Day With Yummy Noodles</p>
+                  <div class="card-actions justify-end">
+                    <button class="badge badge-outline btn bg-red-600 rounded-lg">Add to List</button> 
+                    <button class="badge badge-outline btn bg-blue-600 rounded-lg">Order Now</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card  bg-gray-600 border-yellow-200 shadow-2xl">
+                <figure><img class="w-1/2 lg:w-full" src="./IMG/p3.png" alt="noodles" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Masala Noodles!
+                    <div class="badge badge-secondary">New Item</div>
+                  </h2>
+                  <p>Make Your Day With Yummy Noodles</p>
+                  <div class="card-actions justify-end">
+                    <button class="badge badge-outline btn bg-red-600 rounded-lg">Add to List</button> 
+                    <button class="badge badge-outline btn bg-blue-600 rounded-lg">Order Now</button>
+                  </div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="text-center py-5">
+            <button class="bg-green-400 btn "> View All</button>
+          </div>
+    </section>
+    </main>
+    <footer class="max-w-7xl mx-auto footer p-10 text-white text-base-content">
+        <div>
+          <span class="footer-title">Services</span> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+          <a class="link link-hover">Jobs</a> 
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div> 
+        <div>
+          <span class="footer-title">Newsletter</span> 
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="text-white">Enter your email address</span>
+            </label> 
+            <div class="relative">
+              <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16 text-black" /> 
+              <button class="btn btn-primary absolute top-0 right-0 rounded-l-none bg-yellow-400">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
